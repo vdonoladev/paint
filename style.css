@@ -35,7 +35,8 @@ canvas {
   margin-bottom: 20px;
 }
 
-.button__tool, .button__size {
+.button__tool,
+.button__size {
   height: 45px;
   border: none;
   border-radius: 5px;
@@ -50,7 +51,8 @@ canvas {
   font-size: 1.8rem;
 }
 
-.button__tool:hover, .button__size:hover {
+.button__tool:hover,
+.button__size:hover {
   background-color: #f2f2f2;
 }
 
@@ -79,19 +81,19 @@ canvas {
   display: block;
 }
 
-.button__size[data-size="5"] > span{
+.button__size[data-size="5"] > span {
   height: 5px;
 }
 
-.button__size[data-size="10"] > span{
+.button__size[data-size="10"] > span {
   height: 10px;
 }
 
-.button__size[data-size="20"] > span{
+.button__size[data-size="20"] > span {
   height: 20px;
 }
 
-.button__size[data-size="30"] > span{
+.button__size[data-size="30"] > span {
   height: 30px;
 }
 
